@@ -1,0 +1,23 @@
+#!/usr/bin/python3
+"""
+    Rules for naming varibles
+    (1) Don't Use number at the beginning of the name
+    (2) There should not be space between the name rather use underscore to sperate the names
+    (3) Do not use in built functions like print, input, len, str and so on in naming variable
+        because they wil throw an error
+"""
+
+name = input("what is your name? ")
+
+print(name)
+
+name = "Jack"
+print(name)
+
+
+name = "Uche"
+print(name)
+
+value = input("What is your hobby? ")
+length = len(value)
+print(length)
